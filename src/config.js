@@ -7,6 +7,7 @@ module.exports = {
         GKB_DB_CREATE: true,
         GKB_DB_HOST: 'orientdbdev.bcgsc.ca',
         GKB_DB_MIGRATE: true,
+        GKB_DBS_PASS: 'Kn0wl3dgeb4s3',
         GKB_DB_PASS: 'admin',
         GKB_DB_POOL: 25,
         GKB_DB_PORT: 2424,
@@ -22,8 +23,8 @@ module.exports = {
         GKB_USER_CREATE: true,
     },
     development: {
-        GKB_DB_CREATE: false,
-        GKB_DB_NAME: 'production-sync-dev',
+        GKB_DB_CREATE: true,
+        GKB_DB_NAME: 'akushner-test',
     },
     local: {
         GKB_CORS_ORIGIN: '^.*$',
